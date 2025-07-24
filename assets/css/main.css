@@ -4301,6 +4301,6 @@ a.special_narrow:not(.button):active:before {
 .features .image img {
   width: auto;       /* let width flex to preserve ratio */
   height: 240px;     /* or whatever uniform height you like */
-  object-fit: cover; /* crop/centre if you prefer */
+  object-fit: centre; /* crop/centre if you prefer */
   display: block;    /* remove inline whitespace */
 }
