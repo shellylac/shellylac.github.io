@@ -4296,3 +4296,11 @@ a.special_narrow:not(.button):hover:before {
 a.special_narrow:not(.button):active:before {
   background-color: rgba(255, 255, 255, 0.075);
 }
+
+/* In the “Work | Projects | More” grid */
+.features .image img {
+  width: auto;       /* let width flex to preserve ratio */
+  height: 240px;     /* or whatever uniform height you like */
+  object-fit: cover; /* crop/centre if you prefer */
+  display: block;    /* remove inline whitespace */
+}
